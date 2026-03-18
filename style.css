@@ -78,7 +78,7 @@ nav ul li a:hover{
 
 /*banner starts here*/
 #banner-section{
-  background-image: url('/images/banner_photo.jpeg');
+  background-image: url('/banner_photo.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
