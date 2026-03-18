@@ -129,6 +129,7 @@ nav ul li a:hover{
 /*about start*/
 #about-us{
   padding: 1%;
+  background: #EAF7F6;
 }
 
 .about-us-content{
@@ -150,6 +151,7 @@ nav ul li a:hover{
 /*food menu starts*/
 #menu-section{
   padding: 1%;
+  background: #FFF4E6;
 }
 
 .card-body{
@@ -168,11 +170,12 @@ nav ul li a:hover{
 .item-name{
   background: green;
   color: white;
-  padding: 10px;
+  padding: 5px;
+  font-size: 0.8rem;
 }
 
 .item-desc > p{
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   padding: 10px;
   font-weight: bold;
 }
@@ -186,6 +189,10 @@ nav ul li a:hover{
 }
 /*food menu ends*/
 
+.menu-design{
+  background-color: #FFF4E6;
+
+}
 /*contact starts*/
 #contact{
   padding: 1%;
@@ -251,6 +258,15 @@ footer p{
 /*small devices(portrait tablets and large phones,576px and up )*/
 
 @media (min-width:576px) {
+
+.item-desc > p{
+ font-size: 0.8rem;
+}
+
+.item-name{
+  padding: 10px;
+  font-size: 1.17rem;
+}
 .col-sm-1{width: 8.33%;}
 .col-sm-2{width: 16.66%;}
 .col-sm-3{width: 25%;}
